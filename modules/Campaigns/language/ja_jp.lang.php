@@ -108,6 +108,7 @@ $mod_strings = array (
   'LBL_TEST_BUTTON_KEY'=>'e',
   'LBL_TEST_BUTTON_LABEL'=>'テストメール送信',
   'LBL_COPY_AND_PASTE_CODE' => 'または、以下のHTMLをコピーして貼付けてください。',
+  'LBL_CHARSET_NOTICE' => 'NOTE: Please make sure that the page containing the web-to-lead form has the following lines in the &lt;head&gt; section:', /* 6.5.2 */
 
   'LBL_TODETAIL_BUTTON_TITLE'=>'詳細を見る',
   'LBL_TODETAIL_BUTTON_KEY'=>'T',

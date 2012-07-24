@@ -910,7 +910,7 @@ $mod_strings = array (
     'WARN_LICENSE_EXPIRED'=> "注意: ライセンスは",
     'WARN_LICENSE_EXPIRED2' =>"日後に期限切れとなります。管理画面の<a href='index.php?action=LicenseSettings&module=Administration'>「ライセンス管理」</a>で設定してください。",
 	'WARN_LICENSE_SEATS'=>  "警告:アクティブユーザがライセンスの上限に達しました。",
-    'WARN_LICENSE_SEATS2' => "人分超過しました。販売代理店に問い合わせるか、info@osscrm.com宛にメールを送ってください。",
+    'WARN_LICENSE_SEATS2' => "人分超過しました。販売代理店に問い合わせるか、<a href='mailto:info@osscrm.com'>info@osscrm.com</a>宛にメールを送ってください。", /* 6.5.2: sales@sugarcrm.com */
     'WARN_LICENSE_SEATS_MAXED'=>  "警告:アクティブユーザがライセンスの上限に達しました。",
     'WARN_LICENSE_SEATS_EDIT_USER'=>  "Warning: The number of active users is already the maximum number of licenses allowed",
     'WARN_LICENSE_SEATS_USER_CREATE'=>"Warning: The number of active users allowed by your license matches the number of active users in the system. You will not be able to create additional active users.",
@@ -1144,6 +1144,12 @@ $mod_strings = array (
     'LBL_FTS_CONN_SUCCESS' => 'The connection was successfully made. You will need to perform a system index for full-text searching to work for the enabled modules and module fields.',
 	'LBL_FTS_CONN_SUCCESS_SHORT' => 'A system index operation has been scheduled to run within the next several minutes.',
     'LBL_FTS_CONN_FAILURE_SHORT' => 'Unable to schedule an index operation.',
-    'LBL_FTS_PAGE_DESC' => 'To enable full text searching, select the search engine that will be used and enter the host and port of the search engine. To complete the setup, connect to the engine and perform a full system index.',
-    'LBL_FTS_CONNECTION_INVALID' => 'The Full Text Search Settings you have entered are invalid and may slow down system performance.  Please change or clear your settings.'
+    'LBL_FTS_PAGE_DESC' => 'To enable full text searching:<br>
+1) Select the search engine that will be used<br>
+2) Enter the host and port of the search engine<br>
+3) Click Test to make sure Sugar can connect to the search engine<br>
+4) Click Schedule System Index. Make sure that crontab is set up to run cron.php. This will handle indexing as well as the fallback mechanism when the connection to the search engine is interrupted.',
+    'LBL_FTS_DISABLED' => 'Full Text Search has been disabled because the system is not able to connect to the search engine.',
+    'LBL_FTS_CONNECTION_INVALID' => 'The Full Text Search Settings you have entered are invalid and may slow down system performance.  Please change or clear your settings.',
+    'MSG_RECONNECT_LOTUSLIVE' => 'You are currently not connected to IBM SmartCloud. Connect to IBM SmartCloud within your Profile to be able to access IBM SmartCloud meetings and files.'    
 );

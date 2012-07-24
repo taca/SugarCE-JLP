@@ -502,6 +502,7 @@ $mod_strings = array(
     'LBL_OOTB_TRACKER' => 'トラッカーのテーブルを切り詰め',
     'LBL_OOTB_SEND_EMAIL_REMINDERS' => '電子メールの備忘通知を実行',
     'LBL_UPDATE_TRACKER_SESSIONS' => 'tracker_sessionsのテーブルを更新',
+    'LBL_OOTB_CLEANUP_QUEUE' => 'Clean Jobs Queue', /* 6.5.2 */
 
 
     'LBL_PATCHES_TITLE' => '最新のパッチをインストール',

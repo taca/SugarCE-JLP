@@ -220,6 +220,9 @@ $mod_strings = array (
    	'LBL_LOGIN_LOGIN_TIME_SECONDS'      => '秒 ',
     'LBL_LOGIN_ADMIN_CALL'              => '管理者へ連絡してください。',
 	// END LOGIN PAGE STRINGS
+    'LBL_LOGGED_OUT_1' => 'You have been logged out. To login again please click ', /* 6.5.2 */
+    'LBL_LOGGED_OUT_2' => 'here',
+    'LBL_LOGGED_OUT_3' => '.',
 	'LBL_MAIL_FROMADDRESS'				=> 'Reply-toアドレス',
 	'LBL_MAIL_FROMNAME'					=> 'Reply-to名前',
 	'LBL_MAIL_OPTIONS_TITLE'			=> '電子メールオプション',

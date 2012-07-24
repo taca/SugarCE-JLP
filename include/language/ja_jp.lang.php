@@ -1817,6 +1817,7 @@ $app_strings = array (
     'LBL_OPT_OUT_FLAG_PRIMARY' => '受信拒否メールアドレス',
     'LBL_MEETINGS'=>'会議',
     'LBL_MEETING'=>'会議',
+    'LBL_MEETING_GO_BACK'=>'Go back to the meeting', /* 6.5.2 */
     'LBL_MEMBERS'=>'メンバー一覧',
     'LBL_MEMBER_OF'=>'次のメンバー',
     'LBL_MODIFIED_BY_USER' => '編集ユーザ',
@@ -1896,6 +1897,8 @@ $app_strings = array (
     'LBL_SEARCH_BUTTON_LABEL' => '検索',
     'LBL_SEARCH_BUTTON_TITLE' => '検索',
     'LBL_SEARCH' => '検索',
+    'LBL_SEARCH_TIPS' => "Press the search button or click enter to get an exact match for them.", /* 6.5.2 */
+    'LBL_SEARCH_TIPS_2' => "Press the search button or click enter to get an exact match for",
     'LBL_SEARCH_MORE' => 'more',
     'LBL_SEE_ALL' => 'すべてを見る',
     'LBL_UPLOAD_IMAGE_FILE_INVALID' => '不正なファイルフォーマットです。画像ファイルのみアップロードできます。',
@@ -1996,7 +1999,7 @@ $app_strings = array (
     'LBL_TABGROUP_ALL' => 'すべて',
     'LBL_TABGROUP_ACTIVITIES' => 'グループウェア',
     'LBL_TABGROUP_COLLABORATION' => '共同作業',
-    'LBL_TABGROUP_HOME' => 'ホーム',
+    'LBL_TABGROUP_HOME' => 'Dashboard', /* 6.5.2: was 'ホーム' on 6.5.0 */
     'LBL_TABGROUP_MARKETING' => 'マーケティング',
     'LBL_TABGROUP_MY_PORTALS' => 'Webサイト',
     'LBL_TABGROUP_OTHER' => 'その他',
@@ -2086,6 +2089,7 @@ $app_strings = array (
     'WARN_UNSAVED_CHANGES'=> "変更を保存しないでこのページから移動しますか？",
     'ERROR_NO_RECORD' => 'エラー：このレコードは削除されているか、閲覧する権限がありません。',
     'ERROR_TYPE_NOT_VALID' => 'エラー: このタイプは有効ではありません。',
+    'ERROR_NO_BEAN' => 'Failed to get bean.', /* 6.5.2 */
     'LBL_DUP_MERGE'=>'重複を検出',
     'LBL_MANAGE_SUBSCRIPTIONS'=>'購読の管理',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR'=>'購読の管理対象: ',
@@ -2444,6 +2448,8 @@ $app_strings = array (
     'UPLOAD_ERROR_TEXT'          => 'ERROR: There was an error during upload. Error code: {0} - {1}',
     'UPLOAD_ERROR_TEXT_SIZEINFO' => 'ERROR: There was an error during upload. Error code: {0} - {1}. The upload_maxsize is {2} ',
     'UPLOAD_ERROR_HOME_TEXT'     => 'ERROR: There was an error during your upload, please contact an administrator for help.',
+    'UPLOAD_MAXIMUM_EXCEEDED'    => 'Size of Upload ({0} bytes) Exceeded Allowed Maximum: {1} bytes', /* 6.5.2 */
+
 
     //508 used Access Keys
     'LBL_EDIT_BUTTON_KEY' => 'i',
@@ -2469,6 +2475,7 @@ $app_strings = array (
     'LBL_KEYBOARD_SHORTCUTS_HELP' => '<p><strong>フォームの機能 - Alt+</strong><br/> I = ed<b>I</b>t (編集/詳細画面)<br/> U = d<b>U</b>plicate (複製/詳細画面)<br/> D = <b>D</b>elete (削除/詳細画面)<br/> A = s<b>A</b>ve (保存/編集画面)<br/> L = cance<b>L</b> (キャンセル/編集画面) <br/><br/></p><p><strong>検索フォームの機能  - Alt+</strong><br/> 7 = 編集画面で入力欄に移動<br/> 8 = 検索画面で詳細検索を開く<br/> 9 = 検索画面で条件入力欄へ移動<br/> 0 = グローバル検索欄に移動<br></p>' ,
 
     'ERR_CONNECTOR_NOT_ARRAY' => '{0}コネクタは定義に誤りがあるかまたはコネクタが存在しないため利用することはできません。',
+    'ERR_SUHOSIN' => 'Upload stream is blocked by Suhosin, please add &quot;upload&quot; to suhosin.executor.include.whitelist (See sugarcrm.log for more information)', /* 6.5.2 */
     );
 
 $app_list_strings['moduleList']['Library'] = 'ライブラリ';

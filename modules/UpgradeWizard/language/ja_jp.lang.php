@@ -102,6 +102,7 @@ $mod_strings = array(
 	'LBL_UW_COMPLIANCE_MBSTRING'				=> 'mbstringモジュール',
 	'LBL_UW_COMPLIANCE_MBSTRING_FUNC_OVERLOAD'	=> 'MBStringsのmbstring.func_overloadパラメータ',
 	'LBL_UW_COMPLIANCE_MEMORY'					=> 'PHP設定: メモリリミット',
+    'LBL_UW_COMPLIANCE_STREAM'                  => 'PHP Setting: Stream', /* 6.5.2 */
 	'LBL_UW_COMPLIANCE_MSSQL_MAGIC_QUOTES'		=> 'Microsoft SQL ServerとPHPのMagic Quotes GPC',
 	'LBL_UW_COMPLIANCE_MYSQL'					=> '必要最低MySQLバージョン',
     'LBL_UW_COMPLIANCE_DB'                      => 'データベースの必要最低バージョン',
